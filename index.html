@@ -1,0 +1,347 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>SPDK</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+
+<link href="css/style.css" rel="stylesheet" type="text/css" />
+
+<link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+
+<script language="javascript" type="text/javascript">
+function clearText(field)
+{
+    if (field.defaultValue == field.value) field.value = '';
+    else if (field.value == '') field.value = field.defaultValue;
+}
+</script>
+
+<link rel="stylesheet" type="text/css" href="css/ddsmoothmenu.css" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/ddsmoothmenu.js">
+
+
+
+</script>
+
+<script type="text/javascript">
+
+ddsmoothmenu.init({
+	mainmenuid: "tooplate_menu", //menu DIV id
+	orientation: 'h', //Horizontal or vertical menu: Set to "h" or "v"
+	classname: 'ddsmoothmenu', //class added to menu's outer DIV
+	//customtheme: ["#1c5a80", "#18374a"],
+	contentsource: "markup" //"markup" or ["container_id", "path_to_menu_file"]
+})
+
+</script>
+  
+</head>
+<body>
+
+<div id="tooplate_header">
+	<div id="tooplate_top">
+    	<div id="tooplate_search">
+            <form action="#" method="get">
+              <input type="text" value="Search" name="keyword" id="keyword" title="keyword" onfocus="clearText(this)" onblur="clearText(this)" class="txt_field" />
+              <input type="submit" name="Search" value="" alt="Search" id="searchbutton" title="Search" class="sub_btn"  />
+            </form>
+		</div>
+    </div>
+    <div id="tooplate_titlebar">
+    	<div id="site_title"><h1>SPDK Travel Agency</h1></div>
+        <div id="tooplate_menu" class="ddsmoothmenu">
+            <ul>
+              <li><a href="index.html" class="selected">Home</a></li>
+          		<li><a href="about.html">About</a></li>
+         	
+			<li><a href="book.html">Support</a>
+                    <ul>
+                        <li><a href="book.html">my booking</a></li>
+                         <li><a href="cancellation.html">cancellation</a></li>
+                        <li><a href="print.html">print Ticket</a></li>
+                        <li><a href="login.html">payment</a></li>
+                        
+                  </ul>
+              </li>
+              <li><a href="login.html">Login</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <br style="clear: left" />
+        </div> <!-- end of tooplate_menu -->
+    </div>
+    
+    <div id="tooplate_mid_wrapper">
+    	<div id="tooplate_mid_home">
+        	
+            <div id="slider-wrapper">
+        
+                <div id="slider" class="nivoSlider">
+                    <img src="images/slider/01.jpg" alt="Image 01" title="MITERI YATAYAT." />
+                    <img src="images/slider/02.jpg" alt="Image 02" title="AGNI YATAYAT." />
+                    <img src="images/slider/03.jpg" alt="Image 03" title="MAKALU YATAYAT." />
+                    <img src="images/slider/04.jpg" alt="Image 04" title="KOSHI DELUXE." />
+					
+                </div>
+                <div id="htmlcaption" class="nivo-html-caption">
+                    <strong>This</strong> is an example of a HTML caption with <a href="#">a link</a>.
+                </div>
+            
+            </div>
+                <script type="text/javascript" src="js/jquery-1.4.3.min.js"></script>
+				<script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+                <script type="text/javascript">
+                $(window).load(function() {
+                    $('#slider').nivoSlider();
+                });
+                </script>
+
+            <div id="mid_left">
+                <div id="mid_title">Introducing SPDK</div>
+                <p id="mid_text"> SPDK Travel Agency is a web based online bus reservation system which is developed as a final year project by the students of Seventh semester at AIMS College (CSIT). In this system a person can book their tickets online by visiting our site. This web based system requires the login of the customer and provides .</p>
+                <div id="learn_more"><a href="about.html">Learn More</a></div>
+            </div>
+            <div class="cleaner"></div>
+        	
+        </div>
+    </div>
+</div> <!-- end of header -->
+
+<pub>
+<font face="Impact" font size="7" color="green">Fill Journey Details</font></a>
+</pub> 
+<form action="buslist.php" method="post">
+<div class="transbox">
+<p><center> <br>
+<font face="Franklin Gothic" font size="5" color="black">From &#160;:&#160;&#160;</font>
+<select name="fromLoc">
+
+<option value="Bangalore">	Kathmandu	</option>
+<option value="Chandigarh">	Biratnagar	</option>
+<option value="Chennai">	Pokhara	</option>
+<option value="Coimbatore">	Chitawon	</option>
+<option value="Delhi">	Dharan	</option>
+<option value="Hyderabad">	Ithari	</option>
+<option value="Kochi">	jhapa	</option>
+<option value="Kolkata">	Ilam	</option>
+<option value="Mumbai">	Kakarvitta	</option>
+<option value="Mysore">	patchatar	</option>
+<option value="Pune">	Pune	</option>
+<option value="Mohali">	Mohali	</option>
+<option value="Ludhiana">	Ludhiana	</option>
+<option value="Indore">	Indore	</option>
+<option value="Amritsar">	Amritsar	</option>
+<option value="Jalandhar">	Jalandhar	</option>
+<option value="Jaipur">	Jaipur	</option>
+<option value="Lucknow">	Lucknow	</option>
+<option value="Shimla">	Shimla	</option>
+<option value="Nagpur">	Nagpur	</option>
+<option value="Jammu">	Jammu	</option>
+<option value="Surat">	Surat	</option>
+<option value="Srinagar">	Srinagar	</option>
+<option value="Kanpur">	Kanpur	</option>
+<option value="Allahabad">	Allahabad	</option>
+<option value="Varanasi">	Varanasi	</option>
+<option value="Agra">	Agra	</option>
+<option value="Ajmer">	Ajmer	</option>
+<option value="Udaipur">	Udaipur	</option>
+<option value="Bikaner">	Bikaner	</option>
+<option value="Jodhpur">	Jodhpur	</option>
+<option value="Gandhinagar">	Gandhinagar	</option>
+<option value="Goa">	Goa	</option>
+<option value="Solapur">	Solapur	</option>
+<option value="Kolhapur">	Kolhapur	</option>
+<option value="Nashik">	Nashik	</option>
+<option value="Bhopal">	Bhopal	</option>
+<option value="Gwalior">	Gwalior	</option>
+<option value="Jabalpur">	Jabalpur	</option>
+<option value="Vijayawada">	Vijayawada	</option>
+<option value="Nellore">	Nellore	</option>
+<option value="Vizag">	Vizag	</option>
+<option value="Mangalore">	Mangalore	</option>
+<option value="Hubli">	Hubli	</option>
+<option value="Belgaum">	Belgaum	</option>
+<option value="Pondicherry">	Pondicherry	</option>
+<option value="Trichy">	Trichy	</option>
+<option value="Madurai">	Madurai	</option>
+<option value="Vellore">	Vellore	</option>
+<option value="Trivandrum">	Trivandrum	</option>
+<option value="Bhubaneswar">	Bhubaneswar	</option>
+<option value="Guwahati">	Guwahati	</option>
+<option value="Patna">	Patna	</option>
+<option value="Dhanbad">	Dhanbad	</option>
+<option value="Jamshedpur">	Jamshedpur	</option>
+<option value="Ranchi">	Ranchi	</option>
+</select>
+</p></center>
+<br>
+
+<p><center>
+<font face="Franklin Gothic" font size="5" color="black">To&#160;&#160; &#160;:&#160;&#160;&#160;&#160;&#160;</font>
+<select name="toLoc">
+
+<option value="Bangalore">	Bangalore	</option>
+<option value="Mumbai">	Mumbai	</option>
+<option value="Chennai">	Chennai	</option>
+<option value="Hyderabad">	Hyderabad	</option>
+<option value="Coimbatore">	Coimbatore</option>
+<option value="Mysore">	Mysore	</option>
+<option value="Pune">	Pune	</option>
+<option value="Delhi">	Delhi	</option>
+
+<option value="Kochi">	Kochi	</option>
+<option value="Kolkata">	Kolkata	</option>
+<option value="Chandigarh">	Chandigarh	</option>
+
+<option value="Mohali">	Mohali	</option>
+<option value="Ludhiana">	Ludhiana	</option>
+<option value="Indore">	Indore	</option>
+<option value="Amritsar">	Amritsar	</option>
+<option value="Jalandhar">	Jalandhar	</option>
+<option value="Jaipur">	Jaipur	</option>
+<option value="Lucknow">	Lucknow	</option>
+<option value="Shimla">	Shimla	</option>
+<option value="Nagpur">	Nagpur	</option>
+<option value="Jammu">	Jammu	</option>
+<option value="Surat">	Surat	</option>
+<option value="Srinagar">	Srinagar	</option>
+<option value="Kanpur">	Kanpur	</option>
+<option value="Allahabad">	Allahabad	</option>
+<option value="Varanasi">	Varanasi	</option>
+<option value="Agra">	Agra	</option>
+<option value="Ajmer">	Ajmer	</option>
+<option value="Udaipur">	Udaipur	</option>
+<option value="Bikaner">	Bikaner	</option>
+<option value="Jodhpur">	Jodhpur	</option>
+<option value="Gandhinagar">	Gandhinagar	</option>
+<option value="Goa">	Goa	</option>
+<option value="Solapur">	Solapur	</option>
+<option value="Kolhapur">	Kolhapur	</option>
+<option value="Nashik">	Nashik	</option>
+<option value="Bhopal">	Bhopal	</option>
+<option value="Gwalior">	Gwalior	</option>
+<option value="Jabalpur">	Jabalpur	</option>
+<option value="Vijayawada">	Vijayawada	</option>
+<option value="Nellore">	Nellore	</option>
+<option value="Vizag">	Vizag	</option>
+<option value="Mangalore">	Mangalore	</option>
+<option value="Hubli">	Hubli	</option>
+<option value="Belgaum">	Belgaum	</option>
+<option value="Pondicherry">	Pondicherry	</option>
+<option value="Trichy">	Trichy	</option>
+<option value="Madurai">	Madurai	</option>
+<option value="Vellore">	Vellore	</option>
+<option value="Trivandrum">	Trivandrum	</option>
+<option value="Bhubaneswar">	Bhubaneswar	</option>
+<option value="Guwahati">	Guwahati	</option>
+<option value="Patna">	Patna	</option>
+<option value="Dhanbad">	Dhanbad	</option>
+<option value="Jamshedpur">	Jamshedpur	</option>
+<option value="Ranchi">	Ranchi	</option>
+
+
+</select>
+</p></center>
+
+<br>
+<p><center>
+<font face="Franklin Gothic" font size="5" color="black">Date &#160;:&#160;&#160;&#160;&#160;</font>
+<input type="date" name="dep_date">
+</p></center>
+<p><center>
+<p></p> 
+
+<br>
+<p><center>
+<p></p> 
+<input type="submit"   value="submit"><br>
+</div>
+</form>
+</p></center>
+
+
+<br><br><br><br><br><br><br><br><br><br>
+<br><br><br><br><br><br><br><br><br><br>
+<marquee behavior="alternate" id="mov"><font face='Cursive' font size='4' color='blue'>You can book Bus Tickets on our Website upto 30 days in advance.......</font></marquee>
+ <br><br>  <!-- End Main Content -->
+
+
+
+
+
+
+
+
+<div id="middle-top">
+	<section>
+		<h2>Easy Booking</h2>
+		<img src="easy booking.png" style="width: 360px; height: 190px;">
+	
+		<p> Best features and fast access to the database which gives you easy booking facilities and thus time efficient. </p>
+	</section>
+	<section>
+		<h2>Great Bus Facility</h2>
+		<img src="images/bus2.jpg " style="width: 360px; height: 190px;">
+		
+		<p> We will only guide you those buses which are having high class facility and has best safety measures. </p>
+	</section>
+		
+	<section>
+	   <h1>Total Security</h1>
+	   <img src="images/security.jpg" style="width: 360px; height: 190px;">
+		
+	   <p> We will not disclose any of the personal details of the custmores and also bank details. </p>
+	</section>
+	</div>
+	
+	
+<div id="middle">
+	<section>
+		<h2>CANCELLATION NEWS</h2>
+		<img src="images/bus1.jpg" style="width: 360px; height: 190px;">
+	
+		<p>   Deepavali offers 20% off for those who have booked more than 10 times in our website. </p>
+	</section>
+	<section>
+		<h2>RECENT NEWS</h2>
+		<img src="images/bus2.jpg " style="width: 360px; height: 190px;">
+		
+		<p>Volvo from Bangalore to Mangalore for today has been canceled due to land slide in charmudi ghat. Please cope up with the situation. </p>
+	</section>
+	<section>
+		<h1>FLASH NEWS</h1>
+		<img src="images/bus3.png" style="width: 360px; height: 190px;">
+		
+		<p> Cancellation is allowed. But only 60% of thetotal amout paid will be credited back to your account . </p>
+	</section>
+	</div>
+	
+	<footer>
+		<section>
+			<h3><b>SPDK Travel Agency</b></h3>
+			<p>987-654-3210</p><br>
+			<p>
+			Biratnagar, Morang Nepal<br>
+			SPDKtravelagency@gmail.com</p>
+		</section>
+		<section>
+			<h3>Connect With Us!</h3>
+			<ul class="social">
+				<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/facebook1.png"></a></li>
+				<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/googleplus.png"></a></li>
+				<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/twitter1.png"></a></li>
+				<li><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/youtube1.png"></a></li>
+			</ul>
+		</section>
+		<section>
+			<img src="images/logo.png" style="width: 130px"; height="50px"; align="center">
+		</section>
+	</footer>
+	<footer class="second">
+		<p>Copyright@2017 SPDK Travel Agency.</p>
+	</footer>
+	</body>
+	</html>
